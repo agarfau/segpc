@@ -1,0 +1,20 @@
+name: segpc
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.7
+  - pytorch=1.7.1
+  - torchvision=0.8.2
+  - cudatoolkit=11.0
+  - jupyter
+  - pandas
+  - numpy
+  - matplotlib
+  - shapely
+  - tqdm
+  - seaborn
+  - pip
+  - pip:
+      - pickle5
